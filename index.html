@@ -11,11 +11,13 @@
 
     <img src="nazo.png" alt="かたたたき（狸のイラスト）" />
   
-    <form onsubmit="AnswerCheck(this);return false;">
-        <input type="text" name="input">
-        <button type="submit">送信</button>
+    <div class="nazoform">
+    <form name="sample1" onsubmit="AnswerCheck(this);return false;">
+      <input type="text" name="input" placeholder="ひらがなで入力">
+      <button type="submit">送信</button>
     </form>
-    <div id="result"></div>
+    <div class="result"></div>
+  </div>
 <br>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="かたたたきをします" data-url="https://norate-jp.github.io/katatataki/" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
