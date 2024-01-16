@@ -50,3 +50,8 @@
   letter-spacing: 0.1em;
   border-radius: 0.5rem;
 }
+.tweet form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
